@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Content -->
+        <header>
+            <nav>
+                <img src="assets/logo_alura.jpg" alt="Logo de Alura" class="nav-logo" />
+            </nav>
+        </header>
+        <!-- Main Content -->
+        <main class="main-coder">
+            <button type="button" class="btn eliminar" id="btn-eliminar">Eliminar Textos</button>
+            <form>
+                <fieldset>
+                    <textarea 
+                        name="texto" 
+                        id="input-texto" 
+                        cols="15" 
+                        rows="10" 
+                        placeholder="Ingrese el texto aquí"
+                        class="textarea-code"></textarea>
+                    <small><i class="fa-solid fa-circle-exclamation"></i> 
+                        Sólo letras minúsculas y sin caracteres especiales</small>
+                    <div class="btn-group">
+                        <button type="button" class="btn encriptar" id="btn-encriptar">
+                            Encriptar
+                        </button>
+                        <button type="button" class="btn desencriptar" id="btn-desencriptar">
+                            Desencriptar
+                        </button>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <textarea 
+                        name="texto-encriptado" 
+                        id="texto-encriptado" 
+                        cols="15" 
+                        rows="10"
+                        class="textarea-decode"
+                    ></textarea>
+                    <div class="image-overlay">
+                        <img src="assets/muñeco.png" alt="Imagen de un niño buscando">
+                        <h3>Ningún mensaje fue encontrado</h3>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn copiar" id="btn-copiar">
+                            Copiar
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
