@@ -108,6 +108,7 @@ btnDesencriptar.addEventListener('click',() => {
         document.getElementById('input-texto').value = "";
         document.getElementById('texto-encriptado').value = "";
         document.querySelector('.image-overlay').style.display ="flex";
+        location.reload();
         
     });
 
