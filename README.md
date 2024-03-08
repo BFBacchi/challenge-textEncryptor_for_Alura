@@ -29,4 +29,5 @@ Un botón que copie el texto encriptado/desencriptado para la sección de transf
 
 ![Captura de pantalla 2024-02-09 142906](https://github.com/BFBacchi/challenge-textEncryptor_for_Alura/blob/dev/assets/captura.png)
 
-### https://lorelor.github.io/text-encriptor
+### ### https://bfbacchi.github.io/challenge-textEncryptor_for_Alura/
+
