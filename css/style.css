@@ -91,7 +91,7 @@ form fieldset {
 .textarea-code::placeholder {
     color: var(--blue-1);
     font-family: 'Pangolin';
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -286,7 +286,7 @@ footer {
     }
 
     .textarea-code::placeholder {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     fieldset small {
@@ -340,7 +340,7 @@ footer {
     }
 
     .textarea-code::placeholder {
-        font-size: .5rem;
+        font-size: 2rem;
     }
 
     .image-overlay {
